@@ -85,7 +85,7 @@ CREATE TABLE requests (
 
     country VARCHAR(100) NOT NULL,
 
-    "timeZone" VARCHAR(100) NOT NULL,
+    timeZone VARCHAR(100) NOT NULL,
 
     category VARCHAR(100) NOT NULL,
 
