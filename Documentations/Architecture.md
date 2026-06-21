@@ -124,15 +124,15 @@ class RequestCreate
 class RequestUpdate
 
 class RequestRoutes {
-    GET /requests
-    POST /requests
-    GET /requests/{id}
-    PATCH /requests/{id}
-    DELETE /requests/{id}
+    +get_all_requests()
+    +create_request()
+    +get_request_by_id()
+    +update_request()
+    +archive_request()
 }
 
 class MetricsRoutes {
-    GET /metrics
+    +get_metrics()
 }
 
 RequestRoutes --> Request
