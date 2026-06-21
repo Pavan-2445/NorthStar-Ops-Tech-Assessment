@@ -366,12 +366,19 @@ Pavan Kumar Karavadi
 
 Built as a full-stack Operations Request Tracking System using React, FastAPI, and PostgreSQL.
 
+## Additional Documentation
+
+- Architecture Explanation → docs/ARCHITECTURE.md
+- API Documentation → docs/API_DOCUMENTATION.md
+- Database Schema & Seed Data Guide → docs/DATABASE_SCHEMA_AND_SEEDING.md
+
 ## AI Usage Disclosure
 
 AI tools were used to assist with:
-- UI brainstorming
-- Code scaffolding
+- UI brainstorming and designing
+- UI Code scaffolding
 - Documentation generation
-- Development guidance
+- UI Development guidance
+- Reference for debugging
 
 All implementation, integration, testing, debugging, and final verification were completed by the developer.
