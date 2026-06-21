@@ -343,30 +343,34 @@ Returns analytics and dashboard statistics.
 
 ```json
 {
-  "total_requests": 25,
-  "open_requests": 14,
-  "urgent_requests": 5,
+  "total_requests": 32,
   "overdue_requests": 2,
-
   "requests_by_country": {
-    "United States": 13,
-    "Canada": 12
+    "Canada": 15,
+    "United States": 17
   },
-
   "requests_by_category": {
-    "Technical Issue": 6,
-    "Billing": 5
+    "Billing": 6,
+    "Sales Lead": 8,
+    "General Question": 6,
+    "Appointment Follow-up": 7,
+    "Technical Issue": 5
   },
-
   "requests_by_priority": {
-    "Urgent": 5,
-    "High": 8
+    "High": 9,
+    "Urgent": 10,
+    "Low": 5,
+    "Medium": 8
   },
-
   "requests_by_status": {
-    "New": 9,
-    "In Progress": 4
-  }
+    "New": 11,
+    "Waiting on Customer": 6,
+    "In Progress": 7,
+    "Resolved": 5,
+    "Closed": 3
+  },
+  "urgent_requests": 10,
+  "open_requests": 24
 }
 ```
 
