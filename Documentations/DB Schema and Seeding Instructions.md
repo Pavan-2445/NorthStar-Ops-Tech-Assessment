@@ -141,7 +141,7 @@ INSERT INTO requests (
     customer_name,
     email,
     country,
-    "timeZone",
+    timeZone,
     category,
     priority,
     status,
